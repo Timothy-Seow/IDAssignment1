@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
 #navbar {
     height: 100px;
@@ -7,7 +7,7 @@
     background-color: #000000;
 }
 .navigation{
-    position: relative;
+    position: absolute;
     left: 500px;
 }
 #steam-img {
@@ -124,4 +124,101 @@
 }
 .login-color{
 	color: snow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-steam {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.about-games{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	top: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
+
+#rainbow-steam {
+	height: 700px;
+	width: 1200px;
+}
+
+#steam-desc{
+	position:absolute;
+	top: 380px;
+	right: 400px;
+	display: block;
+	height: 100px;
+	width: 600px;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#game-desc {
+	display: block;
+	height: 150px;
+	width: 400px;
+	text-align: center;
 }
