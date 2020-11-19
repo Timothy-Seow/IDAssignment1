@@ -9,25 +9,31 @@
 <body>
     <!--Top Navigation Bar-->
     <nav id="navbar">
-        <div>
-            <!--Mist logo-->
+        <div class="navigation">
+            <a href="index.html"><img src="steam.jpg" alt="SteamLogo" id="steam-img"></a>
+            <ul id="buttons">
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
         </div>
-        <div>
-            <button type="button" class="navbutton">Store</button>
-            <button type="button" class="navbutton">About</button>
-            <button type="button" class="navbutton">Support</button>
+        <div class="sign-up">
+            <input type="checkbox" id="click">
+            <label for="click" class="sign-in">SIGN IN</label>
+            <div class="content">
+                <div class="header">
+                    <h2>Sign In</h2>
+                </div>
+                <form id="login">
+                    <label for="username" class="login-color">Username:</label><br>
+                    <input type="text" id="username" name="username"><br><br>
+                    <label for="password" class="login-color">Password:</label><br>
+                    <input type="password" id="password" name="password"><br>
+                </form>
+                <label for="click" class="close-btn">Sign In</label>
+            </div>
         </div>
-        <!--
-        <div id="login">
-            <form>
-                <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username"><br>
-                <label for="password">Password:</label><br>
-                <input type="password" id="password" name="password"><br>
-                <input type="submit" value="Login">
-            </form>
-        </div>
-        -->
     </nav>
+
 </body>
 </html>
