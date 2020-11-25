@@ -51,6 +51,8 @@ JetPin : https://store.steampowered.com/app/1461190/jetPIN/
 Gunnhildr : https://store.steampowered.com/app/1377030/Gunnhildr/
 
 
+New Releases Game Images:
+Haydee 2 : https://store.steampowered.com/app/1444650/Haydee_2/
 
 
 
