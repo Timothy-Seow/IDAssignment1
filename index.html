@@ -5,6 +5,7 @@
 <title>mist-website</title>
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="stylesheet" href="customcss/normalize.css" type="text/css">
+<script type="text/javascript" src="script.js"></script>
 </head>
 
 
@@ -39,8 +40,9 @@
         </div>
     </nav>
 
-    <!--First Game Slideshow-->
+    <!--Top 5 Selling Games-->
     <div class="section-1">
+        <h2>Top 5 Selling Games</h2>
         <!--Game Image Slideshow-->
         <div class="slideshow-1">
             <img src="cyberpunk.jpg" alt="Cyberpunk 2077">
@@ -59,20 +61,94 @@
         </div>
     </div>
 
+    <!--Top 5 New Releases-->
     <div class="section-2">
-        <div class="slideshow-2">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <h2>Popular New Releases</h2>
+        <div class="showcase-1">
+            <div class="showcase-content">
+                <div class="new-releases">
+                    <img src="firefighting.jpg" alt="Firefighting Simulator - The Squad">
+                    <div class="new-releases-content">
+                        <p>Firefighting Simulator</p>
+                        <div class="new-price">
+                            <p>$36.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-releases">
+                    <img src="apex.jpg" alt="Apex Legends">
+                    <div class="new-releases-content">
+                        <p>Apex Legends</p>
+                        <div class="new-price">
+                            <p>Free</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-releases">
+                    <img src="shenmue.jpg" alt="Shenmue III">
+                    <div class="new-releases-content">
+                        <p>Shenmue III</p>
+                        <div class="new-price">
+                            <p>$54.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-releases">
+                    <img src="bloodrayne.jpg" alt="Bloodrayne: Terminal Cut">
+                    <div class="new-releases-content">
+                        <p>BloodRayne</p>
+                        <div class="new-price">
+                            <p>$14.50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-releases">
+                    <img src="vector.jpg" alt="Vector Prospector">
+                    <div class="new-releases-content">
+                        <p>Vector Prospector</p>
+                        <div class="new-price">
+                            <p>$13.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
+    <!--New Releases-->
+    <div class="section-3">
+        <div class="tabs">
+            <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+            <button class="tablink" onclick="openPage('News', this, 'green')">News</button>
+            <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+            <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
+            <div id="Home" class="tabcontent">
+                <h3>Home</h3>
+                <p>Home is where the heart is..</p>
+            </div>
 
+            <div id="News" class="tabcontent">
+                <h3>News</h3>
+                <p>Some news this fine day!</p>
+            </div>
+
+            <div id="Contact" class="tabcontent">
+                <h3>Contact</h3>
+                <p>Get in touch, or swing by for a cup of coffee.</p>
+            </div>
+
+            <div id="About" class="tabcontent">
+                <h3>About</h3>
+                <p>Who we are and what we do.</p>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

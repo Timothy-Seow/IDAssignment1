@@ -34,6 +34,8 @@ Among Us : https://store.steampowered.com/app/945360/Among_Us/
 Phasmophobia : https://store.steampowered.com/app/739630/Phasmophobia/
 Rust : https://store.steampowered.com/app/252490/Rust/
 
+
+
 Slideshow-2 Images:
 Firefighting Simulator : https://store.steampowered.com/app/420560/Firefighting_Simulator__The_Squad/
 Apex Legends : https://store.steampowered.com/app/1172470/Apex_Legends/
@@ -42,6 +44,11 @@ BloodRayne : https://store.steampowered.com/app/1373510/BloodRayne_Terminal_Cut/
 Vector Prospector : https://store.steampowered.com/app/1145950/Vector_Prospector/
 Unreal Life : https://store.steampowered.com/app/1335560/UNREAL_LIFE/
 Ignatius : https://store.steampowered.com/app/1457710/Ignatius/
+Catch the Stars : https://store.steampowered.com/app/1420540/CATch_the_Stars/
+War Room : https://store.steampowered.com/app/1175880/War_Room/
+The Skylia Prophecy : https://store.steampowered.com/app/1443370/The_Skylia_Prophecy/
+JetPin : https://store.steampowered.com/app/1461190/jetPIN/
+Gunnhildr : https://store.steampowered.com/app/1377030/Gunnhildr/
 
 
 
