@@ -12,36 +12,18 @@
     <!--Top Navigation Bar-->
     <nav id="navbar">
         <div class="navigation">
-            <a href="index.html"><img src="steam.jpg" alt="SteamLogo" id="steam-img"></a>
+            <a href="index.html"><img src="mist-logo.png" alt="Mist Logo" id="mist-img"></a>
             <ul id="buttons">
                 <li><a href="index.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="support.html">SUPPORT</a></li>
             </ul>
         </div>
-        <div class="sign-up">
-            <input type="checkbox" id="click">
-            <label for="click" class="sign-in">SIGN IN</label>
-            <div class="content">
-                <div class="header">
-                    <h2>Sign In</h2>
-                </div>
-                <form id="login">
-                    <label for="username" class="login-color">Username:</label><br>
-                    <input type="text" id="username" name="username"><br><br>
-                    <label for="password" class="login-color">Password:</label><br>
-                    <input type="password" id="password" name="password"><br>
-                </form>
-                <divc class="close-button">
-                    <label for="click" class="close-btn">Sign In</label>
-                </div>
-            </div>
-        </div>
     </nav>
 
-    <!--Top 5 Selling Games-->
+    <!--Top 5 Rated Games-->
     <div class="section-1">
-        <h2>Top 5 Selling Games</h2>
+        <h2>Top 5 Rated Games</h2>
         <!--Game Image Slideshow-->
         <div class="slideshow-1">
             <img src="cyberpunk.jpg" alt="Cyberpunk 2077">
@@ -52,11 +34,29 @@
         </div>
         <!--Game Descriptions-->
         <div class="gamecontent-1">
-            <p>Cyberpunk is a single-player open-world action based game. It all begins in V city where you play as A, a professional mercenary seeking for a way to be immortal.</p>
-            <p>Player's Unknown Battleground is a multiplayer online battle royale that places you into a battlefield with 99 other players. Search for supplies, outsmart your opponents and become the last one standing.</p>
-            <p>Phasmophobia is a 4 player online co-op game where you and your team have to obtain as much evidence as you can with the use of ghost-hunting equipments.</p>
-            <p>Among Us is a 4-10 player online game filled with teamwork and betrayals. Gain trust from your teammates or you will be disposed.</p>
-            <p>Rust is a survival-based game where you have to gather resources youself and overcome situations like hunger and danger. Shelter yourself from danger, protect youself from enemies and survive.</p>
+            <div class="game-desc">
+                <p>Cyberpunk is a single-player open-world action based game. It all begins in V city where you play as A, a professional mercenary seeking for a way to be immortal.</p>
+                <p>Player's Unknown Battleground is a multiplayer online battle royale that places you into a battlefield with 99 other players. Search for supplies, outsmart your opponents and become the last one standing.</p>
+                <p>Phasmophobia is a 4 player online co-op game where you and your team have to obtain as much evidence as you can with the use of ghost-hunting equipments.</p>
+                <p>Among Us is a 4-10 player online game filled with teamwork and betrayals. Gain trust from your teammates or you will be disposed.</p>
+                <p>Rust is a survival-based game where you have to gather resources youself and overcome situations like hunger and danger. Shelter yourself from danger, protect youself from enemies and survive.</p>
+            </div>
+            <div class="game-info">
+                <div class="userreviews">
+                    <p>User Reviews : Very Positive</p>
+                    <p>User Reviews : Mostly Positive</p>
+                    <p>User Reviews : Positive</p>
+                    <p>User Reviews : Very Positive</p>
+                    <p>User Reviews : Mostly Positive</p>
+                </div>
+                <div class="userratings">
+                    <p>Ratings : 10 / 10</p>
+                    <p>Ratings : 8.4 / 10</p>
+                    <p>Ratings : 8.2 / 10</p>
+                    <p>Ratings : 9.5 / 10</p>
+                    <p>Ratings : 8.5 / 10</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -69,9 +69,6 @@
                 <img src="firefighting.jpg" alt="Firefighting Simulator - The Squad">
                 <div class="new-releases-content">
                     <p>Firefighting Simulator</p>
-                    <div class="new-price">
-                        <p>$36.00</p>
-                    </div>
                 </div>
                 </a>
             </div>
@@ -81,9 +78,6 @@
                 <img src="apex.jpg" alt="Apex Legends">
                 <div class="new-releases-content">
                     <p>Apex Legends</p>
-                    <div class="new-price">
-                        <p>Free</p>
-                    </div>
                 </div>
                 </a>
             </div>
@@ -93,9 +87,6 @@
                 <img src="shenmue.jpg" alt="Shenmue III">
                 <div class="new-releases-content">
                     <p>Shenmue III</p>
-                    <div class="new-price">
-                        <p>$54.00</p>
-                    </div>
                 </div>
                 </a>
             </div>
@@ -105,9 +96,6 @@
                 <img src="bloodrayne.jpg" alt="Bloodrayne: Terminal Cut">
                 <div class="new-releases-content">
                     <p>BloodRayne: Terminal Cut</p>
-                    <div class="new-price">
-                        <p>$14.50</p>
-                    </div>
                 </div>
                 </a>
             </div>
@@ -117,9 +105,6 @@
                 <img src="vector.jpg" alt="Vector Prospector">
                 <div class="new-releases-content">
                     <p>Vector Prospector</p>
-                    <div class="new-price">
-                        <p>$13.00</p>
-                    </div>
                 </div>
                 </a>
             </div>
@@ -131,74 +116,193 @@
     <div class="section-3">
         <div class="tabs">
             <div class="tab-buttons">
-                <button class="tablink" onclick="openPage('releases', this, '#1e5c6b')" id="defaultOpen">New Releases</button>
-                <button class="tablink" onclick="openPage('top-selling', this, '#1e5c6b')">Top Selling</button>
-                <button class="tablink" onclick="openPage('specials', this, '#1e5c6b')">Specials</button>
+                <button class="tablink" onclick="openPage('rated', this, '#1e5c6b')" id="defaultOpen">Top Rated</button>
+                <button class="tablink" onclick="openPage('trending', this, '#1e5c6b')">Trending</button>
+                <button class="tablink" onclick="openPage('new', this, '#1e5c6b')">New & Popular</button>
             </div>
 
-            <div id="releases" class="tabcontent">
-                <div class="new-game-release">
-                    <img src="haydee.jpg">
-                    <p>Haydee 2</p>
+            <div id="rated" class="tabcontent">
+                <div class="top-rated">
+                    <img src="destiny.jpg">
+                    <div class="top-rated-content">
+                        <h2 class="game-title">Destiny 2</h2>
+                        <p>A Massively Multiplayer Online game where you get to play with your friends. Ggo on raids with them, upgrade your gear and fight monsters. Generally, it has a decent storyline and a lot of content</p>
+                        <p>Tags : FPS | Action | PvP | PvE</p>
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Rating : 8.5 / 10</p>
+                    </div>
                 </div>
-                <div class="new-game-release">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="top-rated">
+                    <img src="mhw.jpg">
+                    <div class="top-rated-content">
+                        <h2 class="game-title">Monster Hunter World</h2>
+                        <p>In this game, you play as a hunter. You can choose from a variety of weapons to hunt down monsters,get materials and upgrade your gear. It has a nice storyline and stunning visuals</p>
+                        <p>Tags : Co-op | Multiplayer | Action | Open World | RPG</p>\
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Ratings : 9.8 / 10</p>
+                    </div>
                 </div>
-                <div class="new-game-release">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="top-rated">
+                    <img src="doom.jpg">
+                    <div class="top-rated-content">
+                        <h2 class="game-title">Doom Eternal</h2>
+                        <p>Doom Eternal is a Single Player Game. In its campaign mode, you fight armies of demons from Hell. There is also a special 2 versus 1 mode where you get to fight 2 player-controlled demons in a best-of-5 rounds match</p>
+                        <p>Tags : Action | FPS | Gore | Demons | Singleplayer</p>
+                        <br>
+                        <p>User Reviews : Overwhelming Positive</p>
+                        <p>Ratings : 8.7 / 10</p>
+                    </div>
                 </div>
-                <div class="new-game-release">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="top-rated">
+                    <img src="rss.jpg">
+                    <div class="top-rated-content">
+                        <h2 class="game-title">Rainbow Six Siege</h2>
+                        <p>A 5 versus 5 online First-Person Shooter game where you get to choose from over 50 operators, each with different gadgets that will help you and your team to win. In this game, teamwork is key</p>
+                        <p>Tags : FPS | Multiplayer | Tactical | Action | PvP</p>
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Ratings : 9.3 / 10</p>
+                    </div>
                 </div>
-                <div class="new-game-release">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="top-rated">
+                    <img src="dota.jpg">
+                    <div class="top-rated-content">
+                        <h2 class="game-title">Dota 2</h2>
+                        <p>A Multiplayer Online Battle Areana game where 5 players on each team pick from over 100 heroes, each with a different set of skills. The objective of this game is to destroy the enemy's Ancient Structure in their stronghold</p>
+                        <p>Tags : MOBA | Strategy | Multiplayer | PvP</p>
+                        <br>
+                        <p>User Reviews : Mostly Positive</p>
+                        <p>Ratings : 8.5 / 10</p>
+                    </div> 
                 </div>
             </div>
 
-            <div id="top-selling" class="tabcontent">
-                <div class="top-selling-games">
-                    <img src="haydee.jpg">
-                    <p>Haydee 2</p>
+            <div id="trending" class="tabcontent">
+                <div class="trending-games">
+                    <img src="iron.jpg">
+                    <div class="trending-games-content">
+                        <h2 class="game-title">Iron Harvest</h2>
+                        <p>A game where you are in an alternate reality 1920+, a Real Time Strategy game where you control giant mechs and play singleplayer or co-op campaigns and skirmishes with intense actions</p>
+                        <p>Tags: RTS | Strategy | Mechs | Base Building | War </p>
+                        <br>
+                        <p>User Reviews : Mostly Positive</p>
+                        <p>Ratings : 7.8 / 10</p>
+                    </div>
                 </div>
-                <div class="top-selling-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="trending-games">
+                    <img src="gunnhildr.jpg">
+                    <div class="trending-games-content">
+                        <h2 class="game-title">Gunnhildr</h2>
+                        <p>Gunnhildr is a narrative shooter game in a sci-fi world. Fast-paced first person combat with different powers and stories to uncover. Play this game if you like shooting with content narration</p>
+                        <p>Tags : Action Roguelike | FPS | Roguelite</p>
+                        <br>
+                        <p>User Reviews : Positive</p>
+                        <p>Ratings : 7.9 / 10</p>
+                    </div>
                 </div>
-                <div class="top-selling-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="trending-games">
+                    <img src="astroneer.jpg">
+                    <div class="trending-games-content">
+                        <h2 class="game-title">Astroneer</h2>
+                        <p>Space exploration. Different planets to explore, different tools to use, many discoveries to be made. Online co-op feature enables you to play with your friends</p>
+                        <p>Tags : Open World | Survival Craft | Multiplayer</p>
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Ratings : 8.8 / 10</p>
+                    </div>
                 </div>
-                <div class="top-selling-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="trending-games">
+                    <img src="warroom.jpg">
+                    <div class="trending-games-content">
+                        <h2 class="game-title">War Room</h2>
+                        <p>A realistic game simulating the war in Afghanistan. Command an army, build your base, unlock new units, ensure safety of your people. If you like civilisation and war, this game is for you</p>
+                        <p>Tags : Simulation | Strategy | RTS | Action | Military</p>
+                        <br>
+                        <p>User Reviews : Mostly Positive</p>
+                        <p>Ratings : 8.8 / 10</p>
+                    </div>
                 </div>
-                <div class="top-selling-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="trending-games">
+                    <img src="fifa.jpg">
+                    <div class="trending-games-content">
+                        <h2 class="game-title">FIFA 21</h2>
+                        <p>Build your dream team and play against other players. Get world-famous players like David Beckham and many more. Soccer fan? this game is definitely for you</p>
+                        <p>Tags : Sports | Soccer | PvP | Runner | Competitive</p>
+                        <br>
+                        <p>User Reviews : Mostly Positive</p>
+                        <p>Ratings : 9.3 / 10</p>
+                    </div>
                 </div>
             </div>
 
-            <div id="specials" class="tabcontent">
-                <div class="special-games">
-                    <img src="haydee.jpg">
-                    <p>Haydee 2</p>
+            <div id="new" class="tabcontent">
+                <div class="new-games">
+                    <img src="unreal.jpg">
+                    <div class="new-games-content">
+                        <h2 class="game-title">Unreal Life</h2>
+                        <p>This game depicts the story of one girl who only remembers a name "Miss Sakura" after losing her memories. If you like mysteries and stories, get this game</p>
+                        <p>Tags : Adventure | Pixel Graphics | Side Scroller | Puzzle</p>
+                        <br>
+                        <p>User Reviews : Positive</p>
+                        <p>Ratings : 7.5 / 10</p>
+                    </div>
                 </div>
-                <div class="special-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="new-games">
+                    <img src="ignatius.jpg">
+                    <div class="new-games-content">
+                        <h2 class="game-title">Ignatius</h2>
+                        <p>An interesting puzzle game with a storyline. You play as a character named Ignatius in a surreal black-and-white world</p>
+                        <p>Tags : Atmospheric | Surreal | Hand-drawn | 2D | Noir</p>
+                        <br>
+                        <p>User Reviews : Positive</p>
+                        <p>Ratings : 7.9 / 10</p>
+                    </div>
                 </div>
-                <div class="special-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="new-games">
+                    <img src="cts.jpg">
+                    <div class="new-games-content">
+                        <h2 class="game-title">Catch the Stars</h2>
+                        <p>Casual puzzle game with soothing soundtracks. Solve the puzzles under no pressure, timer and score</p>
+                        <p>Tags : Casual | Puzzle | Minimalist | Cute | Abstract</p>
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Ratings : 8.9 / 10</p>
+                    </div>
                 </div>
-                <div class="special-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="new-games">
+                    <img src="melvor.jpg">
+                    <div class="new-games-content">
+                        <h2 class="game-title">Melvor Idle</h2>
+                        <p>Over 20+ unique skills to choose from, you never get bored of trying. Melvor Idle is a idle game where you interact, upgrade and fight. Like games with big upgrade trees? Get Melvor Idle</p>
+                        <p>Tags : Casual | Indie | RPG | Idler | 2D | Singleplayer</p>
+                        <br>
+                        <p>User Reviews : Very Positive</p>
+                        <p>Ratings : 9.4 / 10</p>
+                    </div>
                 </div>
-                <div class="special-games">
-                    <p>asdasdasdasdasdasdasdasda</p>
+                <div class="new-games">
+                    <img src="jetpin.jpg">
+                    <div class="new-games-content">
+                        <h2 class="game-title">jetPIN</h2>
+                        <p>A level based pinball game where you have special skills to get into bonus zones and earn extra points. Get to the top level and escape the flood</p>
+                        <p>Tags : Action | Adventure | Arcade | Pinball | 2D</p>
+                        <br>
+                        <p>User Reviews : Positive</p>
+                        <p>Ratings : 7.3 / 10</p>
+                    </div>
                 </div>
             </div>
             </div>
         </div>
     </div>
-    
+
+    <!-- Footer -->
     <div class="footer">
         <div class="footer-content">
-            
+            <img src="mist-logo.png">
+            <p>© 2020 Mist. All rights reserved.</p>
         </div>
     </div>
 </body>
