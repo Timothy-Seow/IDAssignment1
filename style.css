@@ -208,7 +208,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
 /* Section 3 of Store Page */
 .section-3 {
 	display: flex;
@@ -274,7 +273,6 @@
 .top-rated:hover, .trending-games:hover, .new-games:hover {
 	transform: translateX(10px);
 }
-
 /* Footer */
 .footer {
 	display: flex;
@@ -284,7 +282,6 @@
 	height: 160px;
 	background-color: #000000;
 }
-
 .footer-content {
 	display: block;
 	display: flex;
@@ -300,43 +297,11 @@
 .footer-content p {
 	color: #EAE5E4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Page CSS */
+/* Section 1 of About Page*/
 .about {
 	display: flex;
-	height: 700px;
+	height: 800px;
 	width: 100%;
 	background-color: #000000;
 	justify-content: center;
@@ -356,22 +321,24 @@
 .about-desc p {
 	display: flex;
 	color: #EAE5E4;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: center;
 	margin: 0px 10px 0px 10px;
 }
+/* Section 2 of About Page */
 .extra {
 	display: flex;
 	display: flex;
-	height: 700px;
+	height: 1200px;
 	width: 100%;
 	background-image: linear-gradient(#000000 20%,#0f343d);
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 .extra-desc {
 	display: flex;
-	height: 300px;
+	height: 400px;
 	width: 600px;
 	flex-direction: column;
 }
@@ -387,9 +354,21 @@
 	text-align: center;
 	align-items: center;
 }
+.extra-images {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.extra-images img {
+	display: flex;
+	height: 200px;
+	width: 380px;
+	box-shadow: 2px 0px 10px 1px #000000, -2px 0px 10px 1px #000000;
+}
+/* Section 3 of About Page */
 .features {
 	display: flex;
-	height: 700px;
+	height: 900px;
 	width: 100%;
 	background-color: #082830;
 	background-image: linear-gradient(#0f343d 20%,#082830);
@@ -401,11 +380,11 @@
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 .feature-header h2 {
 	display: flex;
-	font-size: 35px;
+	font-size: 45px;
 	color: #EAE5E4;
 }
 .features-row {
@@ -417,9 +396,13 @@
 	display: flex;
 	height: 250px;
 	width: 250px;
-	background-color: #1e1e1e;
+	background-color:  #174955;
 	border-radius: 5px;
 	align-items: center;
+	box-shadow: 2px 0px 10px 1px #000000, -2px 0px 10px 1px #000000;
+}
+.feature-content h2 {
+	font-size: 30px;
 }
 .feature-content h2, p {
 	display: flex;

@@ -58,3 +58,12 @@ JetPin : https://store.steampowered.com/app/1461190/jetPIN/
 
 Star Symbol:
 https://www.alt-codes.net/star_alt_code.php
+
+About Page: 
+
+Extra Description Images:
+
+Story Image : https://medium.com/ingenious/adding-storybook-to-our-workflow-e32e817f972d
+Visuals Image : https://unbanster.com/best-pubg-competitive-settings/
+Objectives Image : https://www.pocketgamer.com/articles/084115/how-to-win-among-us-as-the-imposter/
+
