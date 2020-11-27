@@ -55,3 +55,6 @@ Ignatius : https://store.steampowered.com/app/1457710/Ignatius/
 Catch the Stars : https://store.steampowered.com/app/1420540/CATch_the_Stars/
 Melvor Idle : https://store.steampowered.com/app/1267910/Melvor_Idle/
 JetPin : https://store.steampowered.com/app/1461190/jetPIN/
+
+Star Symbol:
+https://www.alt-codes.net/star_alt_code.php
