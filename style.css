@@ -160,6 +160,9 @@
 	width: 300px;
 	box-shadow: 2px 0px 10px 1px #000000, -2px 0px 10px 1px #000000;
 }
+.new-releases img:hover {
+	opacity : 0.7;
+}
 .new-releases {
 	display: flex;
 	flex-direction: column;
@@ -245,6 +248,9 @@
 	height: 1600px;
 	width: 100%;
 	background-color: #1e5c6b;
+}
+.top-rated:hover, .trending-games:hover, .new-games:hover  {
+	opacity: 0.7;
 }
 .top-rated, .trending-games, .new-games {
 	display: block;
